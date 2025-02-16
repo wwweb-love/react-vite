@@ -4,9 +4,13 @@ import viteLogo from '/vite.svg'
 import './App.css'
 
 function App() {
+	// Декларативный
 	const date = new Date(Date.now())
 
+	// Декларативный
 	const [count, setCount] = useState(0)
+
+	// Императивный
 	return (
 		<>
 			<div>
